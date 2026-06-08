@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myelinn.ai | Stateful Runtime Security for AI Agents</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#0B0F17] text-gray-200 antialiased selection:bg-purple-500/30 selection:text-purple-200">
+
+    <!-- Top Border Glow -->
+    <div class="h-[1px] w-full bg-gradient-to-r from-transparent via-purple-500/50 to-transparent opacity-50"></div>
+
+    <!-- Navigation -->
+    <nav class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <!-- Interlocking Hex Shield Logo (Choice 2, Logo 1) - UPDATED TEXT -->
+            <svg class="w-8 h-8 text-gray-400" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Outer Hexagon Brackets -->
+                <path d="M50 5 L88 27 L88 73 L50 95 L12 73 L12 27 Z" stroke="currentColor" stroke-width="6" stroke-linejoin="round" stroke-dasharray="16 8"/>
+                <!-- Inner Shield layer -->
+                <path d="M50 18 L77 34 L77 66 L50 82 L23 66 L23 34 Z" stroke="currentColor" stroke-width="4" stroke-linejoin="round" opacity="0.6"/>
+                <!-- The Zero-Trust Core Dot -->
+                <circle cx="50" cy="50" r="7" fill="#A855F7" class="animate-pulse"/>
+            </svg>
+            <span class="text-xl font-semibold tracking-tight text-white font-mono">myelinn<span class="text-purple-400 font-sans font-light">.ai</span></span>
+        </div>
+        <div>
+            <!-- Update this link to your new Org name if necessary -->
+            <a href="https://github.com/myelinn-ai" class="bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-sm font-medium text-white px-4 py-2 rounded-lg transition-all">
+                GitHub
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="max-w-4xl mx-auto px-6 pt-20 pb-16 text-center relative">
+        <!-- Ambient Background Glow -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-purple-600/10 rounded-full blur-[120px] pointer-events-none"></div>
+
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-purple-500/10 text-purple-400 border border-purple-500/20 mb-6">
+            <span class="w-1.5 h-1.5 rounded-full bg-purple-400 animate-pulse"></span>
+            Natively Deployed VPC Proxy Engine
+        </span>
+        
+        <h1 class="text-4xl sm:text-6xl font-bold tracking-tight text-white mb-6 bg-gradient-to-b from-white via-zinc-200 to-zinc-500 bg-clip-text text-transparent leading-none">
+            Stateful runtime security and cost optimization for AI agents.
+        </h1>
+        
+        <p class="text-lg text-zinc-400 max-w-2xl mx-auto mb-10 font-light leading-relaxed">
+            Intercept, police, and optimize autonomous workflows at the network layer. Stop runaway recursive token loops and unauthorized tool executions before they clear your private perimeter.
+        </p>
+
+        <!-- Waitlist Call to Action -->
+        <div id="waitlist" class="max-w-md mx-auto p-1 bg-zinc-900/80 border border-zinc-800 rounded-xl shadow-2xl focus-within:border-purple-500/50 transition-all">
+            <form action="#" method="POST" class="flex flex-col sm:flex-row gap-2">
+                <input type="email" required placeholder="Enter your enterprise email" 
+                       class="w-full bg-transparent px-4 py-3 text-sm text-white placeholder-zinc-600 focus:outline-none rounded-lg">
+                <button type="submit" class="bg-purple-600 hover:bg-purple-500 text-white font-medium text-sm px-6 py-3 rounded-lg shadow-lg shadow-purple-600/20 transition-all whitespace-nowrap cursor-pointer">
+                    Request VPC Access
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <!-- Divider -->
+    <div class="max-w-5xl mx-auto px-6"><div class="h-[1px] w-full bg-zinc-900"></div></div>
+
+    <!-- Core Thesis / Problem & Solution Section -->
+    <main class="max-w-5xl mx-auto px-6 py-24 grid grid-cols-1 md:grid-cols-2 gap-16">
+        
+        <!-- Left Side: The Blindspot -->
+        <div>
+            <h2 class="text-xs font-semibold tracking-wider text-zinc-500 uppercase mb-3">The Blindspot</h2>
+            <h3 class="text-2xl font-semibold text-white mb-4">Stateless firewalls are completely blind to autonomous agent graphs.</h3>
+            <p class="text-zinc-400 font-light leading-relaxed mb-4">
+                Traditional AI gateways inspect a single prompt going in and a single chunk coming out. They have no concept of history, state, or context across a multi-step execution chain.
+            </p>
+            <ul class="space-y-3 text-sm text-zinc-500 font-mono">
+                <li class="flex items-start gap-2">
+                    <span class="text-red-500/70">✕</span> Runaway recursive loops consuming millions of unmonitored tokens.
+                </li>
+                <li class="flex items-start gap-2">
+                    <span class="text-red-500/70">✕</span> Destructive database writes on execution step 10+ (Unauthorized tool calls).
+                </li>
+            </ul>
+        </div>
+
+        <!-- Right Side: The Architecture -->
+        <div>
+            <h2 class="text-xs font-semibold tracking-wider text-purple-400 uppercase mb-3">The Architecture</h2>
+            <h3 class="text-2xl font-semibold text-white mb-4">Zero-trust runtime policing at the inline network infrastructure layer.</h3>
+            <p class="text-zinc-400 font-light leading-relaxed mb-4">
+                Compiled in Go and deployed as a transparent sidecar proxy inside your secure subnets, Myelinn.ai maps and policies real-time execution states dynamically. 
+            </p>
+            <ul class="space-y-3 text-sm text-zinc-400 font-mono">
+                <li class="flex items-start gap-2">
+                    <span class="text-purple-400">✓</span> Circuit-breakers that instantly terminate runaway agent threads.
+                </li>
+                <li class="flex items-start gap-2">
+                    <span class="text-purple-400">✓</span> Dynamic dependency matching to enforce strict tool execution boundaries.
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-zinc-950 bg-zinc-950/50 py-12 text-center text-xs text-zinc-600 font-mono">
+        <p>&copy; 2026 Myelinn.ai. All rights reserved. Zero-Trust Autonomous Proxy Systems.</p>
+    </footer>
+
+</body>
+</html>
