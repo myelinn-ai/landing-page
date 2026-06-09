@@ -22,22 +22,14 @@
     <!-- Navigation -->
     <nav class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
         <div class="flex items-center space-x-3">
-            <!-- Interlocking Hex Shield Logo (Choice 2, Logo 1) - UPDATED TEXT -->
-            <svg class="w-8 h-8 text-gray-400" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <!-- Outer Hexagon Brackets -->
-                <path d="M50 5 L88 27 L88 73 L50 95 L12 73 L12 27 Z" stroke="currentColor" stroke-width="6" stroke-linejoin="round" stroke-dasharray="16 8"/>
-                <!-- Inner Shield layer -->
-                <path d="M50 18 L77 34 L77 66 L50 82 L23 66 L23 34 Z" stroke="currentColor" stroke-width="4" stroke-linejoin="round" opacity="0.6"/>
-                <!-- The Zero-Trust Core Dot -->
-                <circle cx="50" cy="50" r="7" fill="#A855F7" class="animate-pulse"/>
-            </svg>
-            <span class="text-xl font-semibold tracking-tight text-white font-mono">myelinn<span class="text-purple-400 font-sans font-light">.ai</span></span>
-        </div>
-        <div>
-            <!-- Update this link to your new Org name if necessary -->
-            <a href="https://github.com/myelinn-ai" class="bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-sm font-medium text-white px-4 py-2 rounded-lg transition-all">
-                GitHub
-            </a>
+            
+            <!-- Myelinn Logo Wrapper -->
+            <div class="flex items-center gap-3">
+                <!-- PASTE YOUR LOGO PATH HERE -->
+                <img src="../logo-no-bg.png" alt="Myelinn.ai Logo" class="h-8 w-auto">
+                <span class="text-xl font-semibold tracking-tight text-white font-mono">myelinn<span class="text-purple-400 font-sans font-light">.ai</span></span>
+            </div>
+
         </div>
     </nav>
 
@@ -99,7 +91,7 @@
             <h2 class="text-xs font-semibold tracking-wider text-purple-400 uppercase mb-3">The Architecture</h2>
             <h3 class="text-2xl font-semibold text-white mb-4">Zero-trust runtime policing at the inline network infrastructure layer.</h3>
             <p class="text-zinc-400 font-light leading-relaxed mb-4">
-                Compiled in Go and deployed as a transparent sidecar proxy inside your secure subnets, Myelinn.ai maps and policies real-time execution states dynamically. 
+                Compiled in Go and deployed as a transparent sidecar proxy inside your secure subnets, **Myelinn.ai** maps and policies real-time execution states dynamically. 
             </p>
             <ul class="space-y-3 text-sm text-zinc-400 font-mono">
                 <li class="flex items-start gap-2">
